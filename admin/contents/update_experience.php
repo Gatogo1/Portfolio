@@ -52,7 +52,7 @@ $duties=$_POST['duties'];
 $date=$_POST['date'];
 
 
-$sql = "UPDATE experience SET company='$company=', position='$position', duties ='$duties' ,date ='$date'  WHERE id='$id2' ";
+$sql = "UPDATE experience SET company='$company', position='$position', duties ='$duties' ,date ='$date'  WHERE id='$id2' ";
 if(mysqli_query($conn,$sql)){
   echo "<script>alert('Experience  Updated succesfull '); window.location='../experience.php'</script>";
 }

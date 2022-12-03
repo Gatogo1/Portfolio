@@ -195,7 +195,7 @@ read{
 
  <!-- Modal -->
  <div class="modal fade" id="myModal1" role="dialog">
-<div class="modal-dialog">
+<div class="modal-dialog ">
 
 <!-- Modal content-->
 <div class="modal-content">

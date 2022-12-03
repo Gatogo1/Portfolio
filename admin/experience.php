@@ -34,8 +34,7 @@
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 
-
-    <style>
+<style>
 
         .form-group, .custom-select{
             font-size:20px;
@@ -177,15 +176,14 @@ read{
 
 .img{
     width:50px;
-    hieght:40px;
+    height:40px;
 }
 
 
 /*end delete modal box*/
 
 
-
-    </style>
+</style>
   </head>
 
 
