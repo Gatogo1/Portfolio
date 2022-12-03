@@ -1,0 +1,143 @@
+.header-contect{
+  background: rgb(37, 37, 42);
+
+}
+
+
+
+.navbar-brand{
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+
+
+.list a{
+  color: white;
+  padding: 1rem;
+  font-size: large;
+  text-decoration: none;
+}
+
+.list a:hover{
+background-color: rgb(44, 59, 54);
+border-radius: 5px;
+}
+
+
+
+.main-content{
+  display: grid;
+  grid-template-columns:10% 90% ;
+  grid-auto-rows: minmax(1010px, auto);
+}
+
+
+
+/* Fixed sidenav, full height */
+
+
+/* Style the sidenav links and the dropdown button */
+.menu a, .dropdown-btn {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 20px;
+color: #818181;
+display: block;
+border: none;
+background: none;
+width: 100%;
+text-align: left;
+cursor: pointer;
+outline: none;
+}
+
+/* On mouse-over */
+.menu a:hover, .dropdown-btn:hover {
+color: #f1f1f1;
+}
+
+
+
+.menu{
+
+  height: 100%;
+
+ 
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+
+.contect{
+  background-color:rgb(64, 147, 175);
+}
+
+.feed{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: minmax(100px,auto);
+  grid-gap: 2rem;
+ 
+  padding-top: 20px;
+}
+
+.feed .massage{
+background: rgb(80, 5, 5);
+border-radius: 5px;
+}
+.feed .shop{
+  background: rgb(54, 1, 47);
+  border-radius: 5px;
+}
+
+.feed .visit{
+  background: rgb(116, 103, 8);
+  border-radius: 5px;
+}
+
+.feed .download{
+  background: rgb(5, 80, 45);
+  border-radius: 5px;
+}
+
+
+.massage-content {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+color: aliceblue;
+justify-items: center;
+text-align: center;
+font-size: 15px;
+padding-top: 30px;
+
+  
+}
+
+
+.feed .fa{
+  font-size: 40px;
+}
+
+.view .fa:hover{
+color: aqua;
+}
+
+hr.new1 {
+  border-top: 1px solid red;
+}
+
+

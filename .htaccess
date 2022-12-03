@@ -1,0 +1,16 @@
+RewriteEngine on
+
+
+
+
+
+RewriteRule ^home$ index.php [L]
+
+
+
+
+RewriteRule ^port$ portfolio-details.php [L]
+
+
+
+

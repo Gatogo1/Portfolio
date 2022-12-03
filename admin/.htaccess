@@ -1,0 +1,25 @@
+RewriteEngine on
+
+
+
+RewriteRule ^about$ por_abuot.php [L]
+
+
+
+RewriteRule ^login$ login.php [L]
+
+RewriteRule ^home$ index.php [L]
+
+
+RewriteRule ^experience$ experience.php [L]
+
+RewriteRule ^contact$ contact.php [L]
+
+
+
+
+RewriteRule ^project$ project.php [L]
+
+
+
+
